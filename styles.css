@@ -165,21 +165,14 @@ button:hover{
 
   }}
 /* MOBILE VIEW */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .container {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .expiry-cvc {
-    flex-direction: row;
-    justify-content: center;
-  }
+  
 
-  .expiry-fields input,
-  .cvc input {
-    width: 70px; /* Slightly bigger for touch screens */
-    font-size: 14px;
-  }
-}
+  
+
