@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/interactive-card-details/styles.css"/>
+    <title>Document</title>
+    
+</head>
+<body>
+   
+  <main class="container">
+    <section class="card-preview">
+      <img src="images/bg-background.jpg" alt="background" class="background-image" />
+      
+        <img src="images/bg-card-front.jpg" alt="Front Card" class="card-front" />
+        <div class="card-details">
+          <p class="card-number">0000 0000 0000 0000</p></div>
+        <div class="card-name"> <p class="card-name">Jane Appleseed</p></div>
+         <div class="card-expiry"><p class="card-expiry">00/00</p></div>
+        
+      
+      
+        <img src="images/bg-card-back.jpg" alt="Back Card"class="card-back" />
+        <p class="card-cvc">000</p>
+      
+      
+        <img src="images/bg-card-logo.jpg" alt="card logo" class="card-logo"/>
+        
+      
+    </section>
+
+    <section class="form-section">
+      <form id="card-form" novalidate>
+        <label>CARDHOLDER NAME
+          <input type="text" id="cardholder-name" placeholder="e.g. Jane Appleseed" />
+          <small class="error-message" id="name-error"></small>
+        </label>
+        <label>CARD NUMBER
+          <input type="text" id="card-number" maxlength="19" placeholder="e.g. 1234 5678 9123 0000" />
+          <small class="error-message" id="number-error"></small>
+        </label>
+        <div class="flex-row">
+          <label>EXP. DATE (MM/YY)
+            <div class="flex-date">
+              <input type="text" id="exp-month" maxlength="2" placeholder="MM" />
+              <input type="text" id="exp-year" maxlength="2" placeholder="YY" />
+              <small class="error-message" id="expiry-error"></small>
+            </div>
+          </label>
+          <div class="cvc">
+          <label>CVC
+            <input type="text" id="cvc" maxlength="3" placeholder="e.g. 123" />
+            <small class="error-message" id="cvc-error"></small></div>
+          </label>
+        </div>
+        <button type="submit">Confirm</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
