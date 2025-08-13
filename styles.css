@@ -181,38 +181,10 @@ button:hover{
     aling-items: center;
     margin-bottom:30px;
   }
-  .expiry-cvc {
-    display:flex;
-    gap:10px
-    justify-content: center;
-    flex-wrap:nowrap;
-  }
-  . expiry-fields input {
-    width:60px;
-    min-width:50px
-  }
-  .cvc input {
-    width 
-  }
-  .input {
-    height:45px;
-    font-size:14px;
-  }
-  
-
-  .expiry-cvc {
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .expiry-fields input,
-  .cvc input {
-    width: 70px; 
-    font-size: 14px;
-  }
 }
 
   
+
 
 
 
