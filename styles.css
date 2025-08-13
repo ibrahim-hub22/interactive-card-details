@@ -163,9 +163,18 @@ button:hover{
   .form-section {
     padding: 1rem;
 
-  }}
+  }
+
+  @media(max-width:768px)
+  {.contaniner{
+    flex-direction:colum;
+    align-items:center;
+    text-align:center;
+  }
+}
 
   
+
 
 
 
